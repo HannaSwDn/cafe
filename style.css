@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+* {
+    transition: color .75s;
+}
+
 .wrapper {
     height: 100vh;
     width: 100vw;
@@ -27,8 +31,14 @@ nav p {
     text-align: center;
 }
 
-#borderTop {
+.wideBorder {
     width: 300px;
+}
+
+.wideBorder:last-child {
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 hr {
@@ -59,7 +69,6 @@ ul {
 
 li {
     cursor: pointer;
-    transition: color .75s;
 }
 
 li:hover {
@@ -67,8 +76,19 @@ li:hover {
 }
 
 #openingHours {
-    font-size: 45px;
+    font-size: 50px;
+    letter-spacing: -1px;
     text-align: center;
+}
+
+#address {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#phone {
+    font-size: 35px;
+    letter-spacing: 3px;
 }
 
 /* right div */
@@ -79,4 +99,16 @@ li:hover {
     float: right;
     height: 100vh;
     width: 100vw;
+}
+
+/*
+
+media - responsive
+
+*/
+
+@media only screen and (max-width: 600px) {
+    nav {
+        height: 
+    }
 }
