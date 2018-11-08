@@ -2,11 +2,12 @@
 let p_openingHours = document.querySelector('#openingHours');
 let p_address = document.querySelector('#address');
 let p_contact = document.querySelector('#phone');
-let li1 = document.querySelector('#li1');
-let li2 = document.querySelector('#li2');
-let li3 = document.querySelector('#li3');
 let li4 = document.querySelector('#li4');
 let li5 = document.querySelector('#li5');
+
+const notAvailable = () => {
+    alert('Sorry, this is not available yet..');
+}
 
 li4.addEventListener('click', event => {
     p_address.style.color = '#E68F0E';
@@ -34,6 +35,6 @@ const getOpeningHours = (openingHours) => {
     }
     p_openingHours.innerHTML = openToday;
 
-}
+}  
 
 getOpeningHours(openingHours);

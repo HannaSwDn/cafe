@@ -9,6 +9,10 @@
     transition: color .75s;
 }
 
+html {
+    font-size: 10px;
+}
+
 .wrapper {
     height: 100vh;
     width: 100vw;
@@ -22,17 +26,17 @@ nav {
     float: left;
     height: 100vh;
     text-transform: uppercase;
-    width: 300px;
+    width: 30rem;
 }
 
 nav p {
-    font-size: 26px;
-    letter-spacing: 1px;
+    font-size: 2.6rem;
+    letter-spacing: 0.1rem;
     text-align: center;
 }
 
 .wideBorder {
-    width: 300px;
+    width: 30rem;
 }
 
 .wideBorder:last-child {
@@ -43,28 +47,28 @@ nav p {
 
 hr {
     background-color: white;
-    height: 7px;
+    height: 0.7rem;
     margin: auto;
-    width: 250px;
+    width: 25rem;
 }
 
 h1 {
-    font-size: 80px;
-    letter-spacing: 3px;
-    line-height: 18vh;
+    font-size: 8rem;
+    letter-spacing: 0.3rem;
+    line-height: 15rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 3.2rem;
     text-align: center;
 }
 
 ul {
-    font-size: 28px;
+    font-size: 2.8rem;
     list-style-type: none;
-    margin: 30px 0px 30px 0px;
-    padding-left: 25px;
+    margin: 3rem 0rem 3rem 0rem;
+    padding-left: 2.5rem;
 }
 
 li {
@@ -76,19 +80,19 @@ li:hover {
 }
 
 #openingHours {
-    font-size: 50px;
+    font-size: 5rem;
     letter-spacing: -1px;
     text-align: center;
 }
 
 #address {
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 #phone {
-    font-size: 35px;
-    letter-spacing: 3px;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
 }
 
 /* right div */
@@ -101,16 +105,3 @@ li:hover {
     width: 100vw;
 }
 
-/*
-
-media - responsive
-
-*/
-
-/*
-@media only screen and (max-width: 600px) {
-    nav {
-        height: 
-    }
-}
-*/
